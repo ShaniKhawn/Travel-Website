@@ -1,0 +1,96 @@
+.contact{
+    padding: 2rem;
+}
+
+.form-wrapper .company-address{
+    width: 50%;
+    float: left;
+    height: 300px;
+}
+
+.contact-heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.address-grp .contact-heading{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.address-grp .contact-text{
+    margin-top: .1rem;
+    margin-left: 2rem;
+}
+
+.form-wrapper .address-grp{
+    margin-bottom: 1rem;
+}
+
+.form-wrapper .company-image{
+    max-width: 500px;
+    width: 90%;
+    height: 100%;
+}
+
+.form-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ________________________ Contact Page Form Styling ____________________________ */
+
+.form-wrapper .form{
+    width: 50%;
+    float: right;
+}
+
+.form .contact-heading{
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+}
+
+.form .contact-text{
+    padding-bottom: .5rem;
+    width: 75%;
+}
+
+.form h2::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.575);
+    width: 70%;
+}
+
+.form-wrapper label{
+    display: block;
+    margin-bottom: .5rem;
+    width: 70%;
+}
+
+.form-wrapper input{
+    width: 70%;
+    outline: none;
+}
+
+.form-wrapper .form .form-grp{
+    margin-bottom: 1rem;
+}
+
+.form-wrapper .form textarea{
+    width: 70%;
+    height: 200px;
+}
+
+.form-btn{
+    display: block;
+    margin: 0 20%;
+    padding: .5em 3em;
+    text-transform: uppercase;
+    background: #eb5656;
+    color: #f4f4f4;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}

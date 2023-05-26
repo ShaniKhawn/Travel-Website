@@ -1,0 +1,108 @@
+.about{
+    padding: 5%;
+}
+
+.about-heading{
+    border-bottom: 3px solid rgba(255, 0, 0, 0.575);
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.about-text{
+    padding-top: 10px;
+}
+
+.about-wrapper{
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+
+.about-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.about-wrapper li::before{
+    content: '\2713';
+    color: #eb5656;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+/* _________________________ About Page Count Styling _______________________________*/
+
+.count-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.count-item::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.count-item span{
+    color: #eb5656;
+    font-size: 2rem;
+}
+
+.count-item p{
+    font-size: 2rem;
+}
+
+/* ________________________ About Page Banner Styling _______________________*/
+
+.about-banner{
+    padding: 1rem;
+    background: #eb5656e8;
+    margin-top: 6rem;
+}
+
+.abt-banner-left{
+    float: left;
+    width: 60%;
+}
+
+.abt-banner-right{
+    float: right;
+    width: 40%;
+}
+
+.abt-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    color: #f4f4f4;
+    margin-top: .7rem;
+}
+
+.about-btn{
+    border: 1px solid #f4f4f4;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    letter-spacing: .5rem;
+}
+
+.about-banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}

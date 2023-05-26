@@ -1,0 +1,35 @@
+.heading{
+    font-size: 2.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.btn-primrary{
+    background-color: #f4f4f4;
+    color: #eb5656;
+    border-radius: 50px;
+    margin-top: .5rem;
+}
+
+.btn-primrary:hover{
+    background-color: #ddd;
+}
+
+.btn-secondary{
+    border: 1px solid #eb5656;
+    border-radius: 1.5em;
+    color: #eb5656;
+    margin: 1.5rem;
+}
+
+.bg-color{
+    background-color: rgba(128, 128, 128, 0.767);
+}
+
+.text-red{
+    color: #eb5656;
+}
